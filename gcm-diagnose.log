@@ -1,0 +1,210 @@
+﻿Diagnose log at 2023-05-05T14:12:19Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.0.935+8b4735fc7b
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22621)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\ejrl6
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-O6RU4MJ
+MSYSTEM=MINGW64
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\ejrl6\OneDrive
+LSCOLORS=Gxfxcxdxbxegedabagacad
+WT_PROFILE_ID={2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+ChocolateyToolsLocation=C:\tools
+ProgramFiles(x86)=C:\Program Files (x86)
+CONFIG_SITE=C:/Program Files/Git/etc/config.site
+PROCESSOR_REVISION=3a09
+USERDOMAIN=DESKTOP-O6RU4MJ
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+ORIGINAL_TEMP=C:/Users/ejrl6/AppData/Local/Temp
+USERNAME=ejrl6
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PWD=D:/development/capres-twin
+TEMP=C:\Users\ejrl6\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\ejrl6\AppData\Local
+MANPATH=C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+ANDROID_HOME=C:\Users\ejrl6\AppData\Local\Android\Sdk
+STARSHIP_SESSION_KEY=1904077731704331
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+MSYSTEM_CARCH=x86_64
+PROGRAMFILES=C:\Program Files (x86)
+WSLENV=WT_SESSION:CAROOT/up:WT_SESSION::WT_PROFILE_ID:WT_PROFILE_ID
+ProgramData=C:\ProgramData
+JAVA_HOME=C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\
+LESS=-R
+ORIGINAL_TMP=C:/Users/ejrl6/AppData/Local/Temp
+SYSTEMROOT=C:\WINDOWS
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=4
+TMPDIR=C:\Users\ejrl6\AppData\Local\Temp
+SHLVL=1
+SYSTEMDRIVE=C:
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+HOSTNAME=DESKTOP-O6RU4MJ
+PKG_CONFIG_PATH=C:\Program Files\Git\usr\lib\pkgconfig;C:\Program Files\Git\usr\share\pkgconfig;C:\Program Files\Git\lib\pkgconfig
+CLINK_DIR=C:\Program Files (x86)\clink
+WT_SESSION=bb0a197d-37c7-4482-b768-d7b882f0b572
+MSYSTEM_CHOST=x86_64-pc-msys
+TERM=xterm-256color
+PAGER=less
+PLINK_PROTOCOL=ssh
+INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+ProgramW6432=C:\Program Files
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ejrl6\bin;C:\Users\ejrl6\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\opt\bin;C:\Gradle\gradle-7.6\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Users\ejrl6\AppData\Local\Microsoft\WindowsApps;C:\Users\ejrl6\AppData\Roaming\npm;C:\Users\ejrl6\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Inkscape\bin;C:\adb;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\GitHub CLI;C:\Program Files\Cloudflare\Cloudflare WARP;C:\tools\gsudo\Current;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PowerShell\7;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php8.1.13;C:\Users\ejrl6\AppData\Roaming\.dotnet;C:\Users\ejrl6\AppData\Local\pnpm;C:\Users\ejrl6\.cargo\bin;D:\dev\src\flutter\bin;D:\dev\src\dart-sdk\bin;C:\Users\ejrl6\AppData\Local\Pub\Cache\bin;C:\Program Files\GPAC;C:\Users\ejrl6\.dotnet\tools;C:\Users\ejrl6\AppData\Roaming\Composer\vendor\bin;C:\wamp64\bin\php\php8.1.13\php.exe;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+ChocolateyInstall=C:\ProgramData\chocolatey
+GIT_TRACE2_PARENT_SID=8c296fb4-149b-49d7-98cf-6a12a0deaec8
+STARSHIP_SHELL=zsh
+ZSH=C:/Users/ejrl6/.oh-my-zsh
+LOGNAME=ejrl6
+TMP=C:\Users\ejrl6\AppData\Local\Temp
+PNPM_HOME=C:\Users\ejrl6\AppData\Local\pnpm
+SHELL=C:\Program Files\Git\usr\bin\bash.exe
+HOME=C:\Users\ejrl6
+POWERSHELL_DISTRIBUTION_CHANNEL=MSI:Windows 10 Pro
+CAROOT=C:\Users\ejrl6\AppData\Local\mkcert
+LOGONSERVER=\\DESKTOP-O6RU4MJ
+USERPROFILE=C:\Users\ejrl6
+CommonProgramW6432=C:\Program Files\Common Files
+COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+WINDIR=C:\WINDOWS
+_=C:/Program Files/Git/cmd/git
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-O6RU4MJ
+APPDATA=C:\Users\ejrl6\AppData\Roaming
+HOMEDRIVE=C:
+MSYSTEM_PREFIX=C:/Program Files/Git/usr
+OLDPWD=D:/development
+LANG=es_ES.UTF-8
+PROCESSOR_ARCHITEW6432=AMD64
+ORIGINAL_PATH=C:\Gradle\gradle-7.6\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Users\ejrl6\AppData\Local\Microsoft\WindowsApps;C:\Users\ejrl6\AppData\Roaming\npm;C:\Users\ejrl6\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Inkscape\bin;C:\adb;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\GitHub CLI;C:\Program Files\Cloudflare\Cloudflare WARP;C:\tools\gsudo\Current;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PowerShell\7;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php8.1.13;C:\Users\ejrl6\AppData\Roaming\.dotnet;C:\Users\ejrl6\AppData\Local\pnpm;C:\Users\ejrl6\.cargo\bin;D:\dev\src\flutter\bin;D:\dev\src\dart-sdk\bin;C:\Users\ejrl6\AppData\Local\Pub\Cache\bin;C:\Program Files\GPAC;C:\Users\ejrl6\.dotnet\tools;C:\Users\ejrl6\AppData\Roaming\Composer\vendor\bin;C:\wamp64\bin\php\php8.1.13\php.exe
+PROCESSOR_ARCHITECTURE=x86
+PS1=\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+OS=Windows_NT
+ChocolateyLastPathUpdate=133261314991590462
+OneDriveConsumer=C:\Users\ejrl6\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\ejrl6\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\ejrl6\AppData\Local\Temp\34a44bfd8669ed5e4562d84d'... OK
+Reading from temporary file 'C:\Users\ejrl6\AppData\Local\Temp\34a44bfd8669ed5e4562d84d'... OK
+Deleting temporary file 'C:\Users\ejrl6\AppData\Local\Temp\34a44bfd8669ed5e4562d84d'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\ejrl6
+UserDataDirectoryPath: C:\Users\ejrl6\.gcm
+GetCurrentDirectory(): D:\development\capres-twin
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:63541/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.40.0.windows.1'
+Locating current repository... OK
+Git repository at 'D:/development/capres-twin/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=true
+file:C:/Program Files/Git/etc/gitconfig	core.editor="C:\\Program Files\\Notepad++\\notepad++.exe" -multiInst -notabbar -nosession -noPlugin
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/ejrl6/.gitconfig	user.email=ejrl64@hotmail.com
+file:C:/Users/ejrl6/.gitconfig	user.name=Edgar Rojas
+file:C:/Users/ejrl6/.gitconfig	user.password=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
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=git@github.com:brainhell/capres-twin.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\ejrl6\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\ejrl6\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
