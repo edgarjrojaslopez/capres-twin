@@ -1,24 +1,64 @@
-import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 import tw from 'twin.macro'
-import { Button, Logo } from './../components'
+import { Button } from './../components'
 
-const styles = {
-  // Move long class sets out of jsx to keep it scannable
-  container: ({ hasBackground }) => [
-    tw`flex flex-col items-center justify-center h-screen`,
-    hasBackground && tw`bg-gradient-to-b from-electric to-ribbon`,
-  ],
-}
-
-const IndexPage = () => (
-  <div css={styles.container({ hasBackground: true })}>
-    <div tw="flex flex-col justify-center h-full gap-y-5">
-      <Button variant="primary">Submit</Button>
-      <Button variant="secondary">Cancel</Button>
-      <Button isSmall>Close</Button>
+const Banner = ({
+  purpose,
+  title1,
+  title2,
+  desc1,
+  desc2,
+  linkName,
+  buttonText,
+  imageUrl,
+}) => (
+  <div tw="flex flex-wrap justify-center items-center m-2.5">
+    <Image src={imageUrl} width={500} height={300} alt="banner" />
+    <div css={tw`p-[5px]`}>
+      <div tw="text-gray-500 text-sm font-medium">{purpose}</div>
+      <div tw="text-3xl font-bold">
+        {title1}
+        <br />
+        {title2}
+      </div>
+      <div tw="text-gray-700 text-lg py-3 font-medium">
+        {desc1}
+        <br />
+        {desc2}
+      </div>
+      <Button tw="text-xl bg-blue-300 text-blue-50">
+        <Link href={linkName}>{buttonText} </Link>
+      </Button>
     </div>
-    <Logo />
   </div>
 )
 
-export default IndexPage
+export default function Home() {
+  return (
+    <div>
+      <Banner
+        purpose="RENT A HOME"
+        title1="Rental Homes for"
+        title2="Everyone"
+        desc1=" Explore from Apartments, builder floors, villas"
+        desc2="and more"
+        buttonText="Explore Renting"
+        linkName="/search?purpose=for-rent"
+        imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
+      />
+      <div tw="flex flex-wrap">{/* Fetch the properties and map them...*/}</div>
+      <Banner
+        purpose="BUY A HOME"
+        title1=" Find, Buy & Own Your"
+        title2="Dream Home"
+        desc1=" Explore from Apartments, land, builder floors,"
+        desc2=" villas and more"
+        buttonText="Explore Buying"
+        linkName="/search?purpose=for-sale"
+        imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/110993385/6a070e8e1bae4f7d8c1429bc303d2008"
+      />
+      <div tw="flex flex-wrap">{/* Fetch the properties and map them...*/}</div>
+    </div>
+  )
+}
