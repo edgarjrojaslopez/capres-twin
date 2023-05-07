@@ -1,9 +1,18 @@
+import Router from 'next/router'
+import Head from 'next/head'
+import nprogress from 'nprogress'
+
 import GlobalStyles from './../styles/GlobalStyles'
+
+import Layout from '../components/Layout'
 
 const App = ({ Component, pageProps }) => (
   <>
+    {' '}
     <GlobalStyles />
-    <Component {...pageProps} />
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   </>
 )
 

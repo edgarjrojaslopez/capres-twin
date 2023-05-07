@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import tw from 'twin.macro'
 import { Button } from './../components'
-import Property from '../components/Property'
+import Property from '../components/Property2'
 
 const Banner = ({
   purpose,
@@ -23,7 +23,7 @@ const Banner = ({
       priority={false}
       alt="banner"
     />
-    <div css={tw`p-[5px]`}>
+    <div css={tw`p-5`}>
       <div tw="text-gray-500 text-sm font-medium">{purpose}</div>
       <div tw="text-3xl font-bold">
         {title1}
@@ -35,7 +35,7 @@ const Banner = ({
         <br />
         {desc2}
       </div>
-      <Button tw="text-xl bg-blue-300 text-blue-50">
+      <Button tw="text-xl bg-gray-300 text-gray-600 hocus:(scale-105 text-gray-50 bg-gray-400)">
         <Link href={linkName}>{buttonText} </Link>
       </Button>
     </div>
@@ -56,7 +56,7 @@ export default function Home({ propertiesForRent, propertiesForSale }) {
         linkName="/search?purpose=for-rent"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
       />
-      <div tw="flex flex-wrap gap-2">
+      <div tw="flex flex-wrap justify-around ">
         {propertiesForRent.map(property => (
           <Property property={property} key={property.id} />
         ))}
@@ -71,7 +71,7 @@ export default function Home({ propertiesForRent, propertiesForSale }) {
         linkName="/search?purpose=for-sale"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/110993385/6a070e8e1bae4f7d8c1429bc303d2008"
       />
-      <div tw="flex flex-wrap gap-2">
+      <div tw="flex flex-wrap justify-around">
         {propertiesForSale.map(property => (
           <Property property={property} key={property.id} />
         ))}
